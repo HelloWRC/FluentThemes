@@ -30,7 +30,7 @@ jobs:
       - name: Upload to artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: PluginTemplate.zip
+          name: themes.zip
           path: ./out/*.zip
     
       - name: Upload to release
